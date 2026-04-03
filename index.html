@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>语音对练</title>
+    <style>
+        /* 页面整体样式 */
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        /* 顶部 Banner 样式 */
+        .banner {
+            width: 100%;
+            height: 200px;
+            background-color: #4a90e2; /* 蓝色背景 */
+            background-image: linear-gradient(135deg, #4a90e2 0%, #9013fe 100%); /* 渐变效果 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* 金刚区容器样式 */
+        .king-kong-area {
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+            padding: 20px 0;
+            margin-top: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* 金刚区每个图标的样式 */
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 60px;
+            cursor: pointer;
+        }
+
+        .nav-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #f0f2f5;
+            border-radius: 12px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .nav-text {
+            font-size: 12px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. 顶部 Banner -->
+    <div class="banner">
+        语音对练大厅
+    </div>
+
+    <!-- 2. 金刚区 -->
+    <div class="king-kong-area">
+        <div class="nav-item">
+            <div class="nav-icon">🎤</div>
+            <span class="nav-text">自由说</span>
+        </div>
+        <div class="nav-item">
+            <div class="nav-icon">📚</div>
+            <span class="nav-text">跟读练习</span>
+        </div>
+        <div class="nav-item">
+            <div class="nav-icon">🤖</div>
+            <span class="nav-text">AI 对话</span>
+        </div>
+        <div class="nav-item">
+            <div class="nav-icon">🎮</div>
+            <span class="nav-text">情景模拟</span>
+        </div>
+    </div>
+
+</body>
+</html>
